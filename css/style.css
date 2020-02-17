@@ -1,0 +1,131 @@
+
+            .container {
+                width:100%;
+                height: auto;
+                margin: 0px auto;
+            }
+  
+            .header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%; 
+                height: 60px;
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+  
+            .header-container {
+                width: 80%;
+                height: 60px;
+                margin: 0 auto;
+            }
+  
+            .header-logo{
+                float: left;
+                margin-top: 16px;
+            }
+
+            .header-title {
+                width: 30%;
+                height: 60px;
+                float: left;
+                line-height: 60px;
+            }
+  
+            .header-title > h2 {
+                padding: 0;
+                margin: 0;
+                font-size: 30px;
+                color: aliceblue;
+                text-shadow: 0 0 0.2em aliceblue;
+                margin-left: 10px;
+            }
+  
+            .header-select {
+                width: 50%;
+                height: 60px;
+                float: left;
+                margin-left: -30px;
+            }
+  
+            .header-img > img{
+                padding: 0;
+                margin-top: 15px;
+                border-radius: 30px;
+                display: inline;
+                width: 30px;
+                height: 30px;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+                float: right;
+            }
+
+            .header-soptlight > form{
+                float:right;
+                width: 100px;
+                height: 26px;
+                position: relative;
+                margin-right: 50px;
+            }
+
+            form input{
+                margin-top: 13px;
+                width: 135px;
+                height: 26px;
+                border-radius: 30px;
+            }
+            .header-select > ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                float: right;
+            }
+  
+            .header-select > ul li {
+                display: inline-block;
+                line-height: 60px;
+            }
+  
+            .header-select > ul a {
+                display: inline-block;
+                padding: 0 14px;
+                height: 60px;
+            }
+  
+            a {
+                text-decoration: none;
+                color: white;
+            }
+  
+            a:link {
+                color: white;
+            }
+  
+            a:visited {
+                color: white;
+                background-color: yellow;
+            }
+  
+            a:hover {
+                color: white;
+                background-color: yellow;
+            }
+  
+            a:active {
+                color: white;
+                background-color: yellow;
+            }
+  
+            .content {
+                width: 100%;
+                height: 1650px;
+                background-color: blueviolet;
+                height: calc(100vh);
+            }
+            .footer {
+                margin-top: -50px;
+                height: 100px;
+                background-color: dimgrey;
+                z-index: 9999;
+                text-align: center;
+            }
+  

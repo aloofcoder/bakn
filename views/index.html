@@ -6,6 +6,23 @@
         <title>贝肯少儿编程教育官网</title>
         <link rel="stylesheet" type="text/css" href="../css/normalize.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script>
+            
+            function swtichImg() {
+                var list = document.getElementById("list")
+                var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+                console.log(list.style.left)
+                var newLeft = parseInt(list.style.left) ? parseInt(list.style.left) - w : - w
+                if (newLeft <= -4 * w) {
+                    list.style.left = 0
+                } else {
+                    list.style.left = newLeft + 'px'
+                }
+                
+                console.log(newLeft)
+            }
+            setInterval(swtichImg, 3000)
+        </script>
     </head>
     <body>
         <div class="container">
@@ -38,11 +55,11 @@
                 </div>
             </div>
             <div class="content">
-                <div class="content-scroll">
-                    <img src="../images/image1.png" width="100%" height="100%" alt="">
-                    <img src="../images/image2.png" width="100%" height="100%" alt="">
-                    <img src="../images/image3.png" width="100%" height="100%" alt="">
-                    <img src="../images/image4.png" width="100%" height="100%" alt="">
+                <div id="list" class="scroll-list">
+                    <img src="../images/image1.png" alt="">
+                    <img src="../images/image2.png" alt="">
+                    <img src="../images/image3.png" alt="">
+                    <img src="../images/image4.png" alt="">
                 </div>
             </div>
             <div class="footer">

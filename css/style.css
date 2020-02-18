@@ -1,5 +1,6 @@
 
             .container {
+                position: relative;
                 width:100%;
                 height: auto;
                 margin: 0px auto;
@@ -69,6 +70,7 @@
 
             form input{
                 margin-top: 17px;
+                padding-left: 10px;
                 width: 135px;
                 height: 26px;
                 border-radius: 30px;
@@ -120,15 +122,56 @@
   
             .content {
                 width: 100%;
-                height: 1650px;
                 background-color: blueviolet;
                 height: calc(100vh);
             }
+/* 
+            .content > .content_top{
+                width: 100%;
+                height: 500px;
+                background-color: slateblue;
+            }
+            .content > .content_bottom{
+                width: 100%;
+                height: 500px;
+                background-color: coral;
+            }
+            .content > .content_end{
+                height: 500px;
+                background-color: greenyellow;
+            } */
+
             .footer {
-                margin-top: -50px;
-                height: 100px;
-                background-color: dimgrey;
-                z-index: 9999;
+                /* margin-top: -16px; */
+                width: 100%;
+                height: 178px;
+                background-color: darkgrey;
+            
+            }
+            .foot-top{
+                margin: 0 auto;
+                width: 80%;
+                height: 154px;
+                padding: 20px 0;
+                box-sizing: border-box;
+            }
+
+            .foot-link {
+                width: 40%;
+                float: left;
+            }
+
+            .foot-img {
+                width: 40%;
+                float: right;
                 text-align: center;
+            }
+            .foot-info{
+                margin-top: -16px;
+                width: 100%;
+                height: 24px;
+                text-align: center;
+                background-color: rgb(87, 80, 15);
+                color: black;
             }
   
